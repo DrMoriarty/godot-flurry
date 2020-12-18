@@ -1,0 +1,13 @@
+[config]
+
+name="Flurry"
+binary_type="local"
+binary="Flurry.release.aar"
+
+[dependencies]
+
+local=[]
+remote=[]
+custom_maven_repos=[
+  "https://dl.bintray.com/mobilap/maven/"
+]

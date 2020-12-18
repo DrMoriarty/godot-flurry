@@ -1,0 +1,26 @@
+{
+  "name": "flurry-plugin",
+  "description": "Flurry Analytics plugin for Godot engine",
+  "version": "0.1.0",
+  "dependencies": [
+  ],
+  "files": {
+    "scripts": "scripts"
+  },
+  "platform_ios": {
+    "dependencies": [
+    ],
+    "files": {
+      "ios-framework/build/flurry.gdnlib": "addons/flurry-ios/",
+      "ios-framework/build/flurry.gdns": "addons/flurry-ios/",
+      "ios-framework/build/.gitignore": "addons/flurry-ios/",
+      "ios-framework/build/flurry.xcframework": "addons/flurry-ios/flurry.xcframework"
+    }
+  },
+  "platform_android": {
+    "files": {
+      "android-plugin/Flurry.gdap": "android/plugins/",
+      "android-plugin/build/outputs/aar/Flurry.release.aar": "android/plugins/"
+    }
+  }
+}
