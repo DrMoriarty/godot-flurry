@@ -26,7 +26,7 @@ func logEvent(event: String, params:= {}, timed:= false) -> void:
     if params == null:
         params = {}
     if _f != null:
-        _f.logEvent(event, params)
+        _f.logEvent(event, params, timed)
     
 func endTimedEvent(event: String, params:= {}) -> void:
     if params == null:

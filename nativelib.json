@@ -1,5 +1,5 @@
 {
-  "name": "flurry-plugin",
+  "name": "flurry",
   "description": "Flurry Analytics plugin for Godot engine",
   "version": "0.1.0",
   "license": "MIT",
