@@ -1,13 +1,21 @@
 {
   "name": "flurry",
   "description": "Flurry Analytics plugin for Godot engine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "url": "https://github.com/DrMoriarty/godot-flurry.git",
   "dependencies": [
   ],
   "files": {
     "scripts": "scripts"
+  },
+  "variables": {
+    "Flurry/API_KEY": {
+      "info": "Set your Api Key here"
+    }
+  },
+  "autoload": {
+    "flurry": "*res://scripts/flurry.gd"
   },
   "platform_ios": {
     "dependencies": [
