@@ -31,10 +31,10 @@ func logEvent(event: String, params:= {}, timed:= false) -> void:
 func endTimedEvent(event: String, params:= {}) -> void:
     if params == null:
         params = {}
-    if f != null:
+    if _f != null:
         _f.endTimedEvent(event, params)
 
-func logPurchase(productId: String productName: String, quantity: int, price: float, currency: String, transactionId: String) -> void:
+func logPurchase(productId: String, productName: String, quantity: int, price: float, currency: String, transactionId: String) -> void:
     if _f != null:
         _f.logPurchase(productId, productName, quantity, price, currency, transactionId)
 
