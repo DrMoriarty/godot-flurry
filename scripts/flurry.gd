@@ -7,7 +7,7 @@ func _ready():
     if Engine.has_singleton("Flurry"):
         _f = Engine.get_singleton("Flurry")
     elif OS.get_name() == 'iOS':
-        _f = preload("res://addons/flurry-ios/flurry.gdns").new()
+        _f = load("res://addons/flurry-ios/flurry.gdns").new()
     else:
         push_warning('Flurry native module not found!')
         return
