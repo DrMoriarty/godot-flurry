@@ -7,7 +7,5 @@ binary="Flurry.release.aar"
 [dependencies]
 
 local=[]
-remote=[]
-custom_maven_repos=[
-  "https://dl.bintray.com/mobilap/maven/"
-]
+remote=["com.flurry.android:analytics:12.13.0"]
+custom_maven_repos=[]
