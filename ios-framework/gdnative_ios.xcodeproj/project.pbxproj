@@ -10,7 +10,7 @@
 		5128757A25767432006D5DA6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5128757925767424006D5DA6 /* libz.tbd */; };
 		5169DA9E258C8803008FD1AF /* Flurry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5169DA9C258C8803008FD1AF /* Flurry.mm */; };
 		5169DA9F258C8803008FD1AF /* Flurry.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5169DA9D258C8803008FD1AF /* Flurry.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		5169DAA3258C885F008FD1AF /* libFlurry_11.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5169DAA2258C8842008FD1AF /* libFlurry_11.2.0.a */; };
+		5169DAA3258C885F008FD1AF /* libFlurry_11.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5169DAA2258C8842008FD1AF /* libFlurry_11.2.1.a */; };
 		5169DAA6258C8ADB008FD1AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5169DAA5258C8ADB008FD1AF /* UIKit.framework */; };
 		5169DAA9258C8B0C008FD1AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5169DAA8258C8B0C008FD1AF /* CoreGraphics.framework */; };
 		5169DAB1258C8B45008FD1AF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5169DAB0258C8B45008FD1AF /* SystemConfiguration.framework */; };
@@ -32,7 +32,7 @@
 		5128757925767424006D5DA6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5169DA9C258C8803008FD1AF /* Flurry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Flurry.mm; sourceTree = "<group>"; };
 		5169DA9D258C8803008FD1AF /* Flurry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Flurry.hpp; sourceTree = "<group>"; };
-		5169DAA2258C8842008FD1AF /* libFlurry_11.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_11.2.0.a; path = gdnative_ios/libs/libFlurry_11.2.0.a; sourceTree = "<group>"; };
+		5169DAA2258C8842008FD1AF /* libFlurry_11.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_11.2.1.a; path = gdnative_ios/libs/libFlurry_11.2.1.a; sourceTree = "<group>"; };
 		5169DAA5258C8ADB008FD1AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5169DAA8258C8B0C008FD1AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5169DAB0258C8B45008FD1AF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 				51E8DE9A24D83FF200CB0940 /* libgodot-cpp.ios.release.a in Frameworks */,
 				5169DAA9258C8B0C008FD1AF /* CoreGraphics.framework in Frameworks */,
 				5169DAB1258C8B45008FD1AF /* SystemConfiguration.framework in Frameworks */,
-				5169DAA3258C885F008FD1AF /* libFlurry_11.2.0.a in Frameworks */,
+				5169DAA3258C885F008FD1AF /* libFlurry_11.2.1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 				5169DAB0258C8B45008FD1AF /* SystemConfiguration.framework */,
 				5169DAA8258C8B0C008FD1AF /* CoreGraphics.framework */,
 				5169DAA5258C8ADB008FD1AF /* UIKit.framework */,
-				5169DAA2258C8842008FD1AF /* libFlurry_11.2.0.a */,
+				5169DAA2258C8842008FD1AF /* libFlurry_11.2.1.a */,
 				5128757925767424006D5DA6 /* libz.tbd */,
 				51E8DE9924D83FC100CB0940 /* libgodot-cpp.ios.release.a */,
 			);

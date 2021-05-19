@@ -1,11 +1,17 @@
 {
   "name": "flurry",
+  "display_name": "Flurry",
   "description": "Flurry Analytics plugin for Godot engine",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "godot_version": "3.3.0",
   "license": "MIT",
   "url": "https://github.com/DrMoriarty/godot-flurry.git",
-  "dependencies": [
-  ],
+  "category": "misc",
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty",
+    "donate": "https://ko-fi.com/drmoriarty"
+  },
   "files": {
     "scripts": "scripts"
   },
@@ -19,6 +25,7 @@
   },
   "platform_ios": {
     "dependencies": [
+      "nativelib-export"
     ],
     "files": {
       "ios-framework/build/flurry.gdnlib": "addons/flurry-ios/",

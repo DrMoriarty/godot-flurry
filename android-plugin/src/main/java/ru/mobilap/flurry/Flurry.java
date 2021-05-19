@@ -31,8 +31,6 @@ import com.flurry.android.FlurryPerformance;
 public class Flurry extends GodotPlugin
 {
     private final String TAG = Flurry.class.getName();
-    private Activity activity = null; // The main activity of the game
-
 
     private boolean ProductionMode = true; // Store if is real or not
 
@@ -58,7 +56,7 @@ public class Flurry extends GodotPlugin
             builder.withLogLevel(Log.VERBOSE);
         }
         builder.withPerformanceMetrics(FlurryPerformance.ALL);
-        builder.build(activity, sdkKey);
+        builder.build(getActivity(), sdkKey);
     }
 
     public void logEvent(final String event, final Dictionary params, boolean timed) {
@@ -109,7 +107,6 @@ public class Flurry extends GodotPlugin
     public Flurry(Godot godot) 
     {
         super(godot);
-        activity = godot;
     }
 
     @Override
